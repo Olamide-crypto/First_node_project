@@ -6,7 +6,7 @@ const blogRoutes = require("./routes/blogRoutes");
 const app = express();
 
 // connect to mongodb
-const db = "mongodb://localhost:27017/mongodb";
+const db = "mongodb+srv://olamide:1234@cluster0.f7hgm.mongodb.net/blogs";
 mongoose
   .connect(db, {
     useNewUrlParser: true,
